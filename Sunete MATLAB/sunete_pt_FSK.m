@@ -18,17 +18,6 @@ fprintf('Redare ton %.2f Hz...\n', f);
 sound(y, fs);
 
 
-%% FSK codare asicrona
-
-fs = 44100;              
-amp = 0.9;
-t = 0 : 1/fs : (0.1 - 1/fs);
-
-f_400 = 400; f_500 = 500; f_600 = 600; f_700 = 700;
-f_800 = 800; f_900 = 900; f_1000 = 1000;
-
-
-
 %% Script MATLAB FSK + Vot Majoritar (3 Cadre)
 % =========================================================================
 directie_motor = 1;      
